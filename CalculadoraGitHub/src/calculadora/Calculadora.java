@@ -25,4 +25,12 @@ public class Calculadora {
 			    }
 			    return a / b;
 			}
+			public static double potencia(double base, int exponente) {
+			    return Math.pow(base, exponente);
+			}
+
+			public static boolean esPar(int numero) {
+			    return numero % 2 == 0;
+			}
+			
 }
