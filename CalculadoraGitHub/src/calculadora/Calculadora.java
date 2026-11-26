@@ -18,4 +18,11 @@ public class Calculadora {
 			    return a * b;
 			}
 
+			public static double dividir(double a, double b) {
+			    if (b == 0) {
+			        System.out.println("Error: no se puede dividir entre cero");
+			        return Double.NaN;
+			    }
+			    return a / b;
+			}
 }
