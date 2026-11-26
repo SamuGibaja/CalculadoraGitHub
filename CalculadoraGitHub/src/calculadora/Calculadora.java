@@ -8,6 +8,8 @@ public class Calculadora {
 		 public static void main(String[] args) {
 		 System.out.println("Calculadora GitHub");
 		 System.out.println("Suma: " + sumar(8, 4));
+		 System.out.println("Potencia: " + potencia(2, 3));
+		 System.out.println("¿8 es par?: " + esPar(8));
 		 }
 		 
 		 public static double restar(double a, double b) {
@@ -25,4 +27,12 @@ public class Calculadora {
 			    }
 			    return a / b;
 			}
+			public static double potencia(double base, int exponente) {
+			    return Math.pow(base, exponente);
+			}
+
+			public static boolean esPar(int numero) {
+			    return numero % 2 == 0;
+			}
+			
 }
