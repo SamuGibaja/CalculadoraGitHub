@@ -9,4 +9,13 @@ public class Calculadora {
 		 System.out.println("Calculadora GitHub");
 		 System.out.println("Suma: " + sumar(8, 4));
 		 }
+		 
+		 public static double restar(double a, double b) {
+			    return a - b;
+			}
+
+			public static double multiplicar(double a, double b) {
+			    return a * b;
+			}
+
 }
